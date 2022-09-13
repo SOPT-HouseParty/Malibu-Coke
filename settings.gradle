@@ -14,3 +14,13 @@ dependencyResolutionManagement {
 }
 rootProject.name = "OB-Study-udacity"
 include ':app'
+
+
+/*
+These two lines of code here, define the reposiotories available for the entire project
+Repositories are remote servers where any external code will be downloaded from, for example Android libraries
+This Google repository here contains core Andorid libraries maintained by Google.
+And jcenter is a large repository popular amongst open-source publishers.
+Dependencies are external code, such as libraries, that your project relies or depends on
+Now Gradle is a generic build tool, so it doesn't automatically know how to build Android projects or Kotlin files, which is why these two dependencies are pretty important
+ */
