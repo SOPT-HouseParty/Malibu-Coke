@@ -4,6 +4,9 @@
 
     <data>
 
+        <variable
+            name="myName"
+            type="com.my.study.ob_study_udacity.Myname" />
     </data>
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -16,7 +19,7 @@
             style="@style/name_style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/name"
+            android:text="@{myName.name}"
             android:textAlignment="center" />
 
         <EditText
@@ -48,6 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="16dp"
+            android:text="@={myName.nickname}"
             android:textAlignment="center"
             android:visibility="gone" />
 
