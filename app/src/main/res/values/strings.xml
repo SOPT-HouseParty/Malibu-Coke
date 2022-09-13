@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">OB-Study-udacity</string>
+    <string name="name">Kwon Yongmin</string>
+    <string name="bio">동해물과 백두산이 마르고 닳도록\n하나님이 보우하사 우리나라 만세\n무궁화 삼천리 화려강산\n대한사람 대한으로 길이 보전하세\n가\n나\n다\n라\n마\n바\n사\n아\n자\n차\n카\n타\n파\n하</string>
+    <string name="what_is_your_nickname">What is your nickname</string>
+    <string name="done">DONE</string>
 </resources>
