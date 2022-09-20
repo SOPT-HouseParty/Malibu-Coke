@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">OB-Study-udacity</string>
+    <string name="title_android_trivia_question">Android Trivia (%1$d/%2$d)</string>
 </resources>
