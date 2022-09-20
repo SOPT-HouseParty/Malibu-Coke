@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'androidx.navigation.safeargs.kotlin'
 }
 
 android {
@@ -50,4 +51,5 @@ dependencies {
     def nav_version = '2.5.2'
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    //implementation "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version" //for safe args, 프레그먼트간 데이터 주고 받기
 }
