@@ -1,9 +1,7 @@
 package com.my.study.ob_study_udacity
 
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
@@ -16,12 +14,8 @@ class TitleFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val binding = DataBindingUtil.inflate<FragmentTitleBinding>(
-            layoutInflater,
-            R.layout.fragment_title,
-            container,
-            false
-        )
+        val binding = DataBindingUtil
+            .inflate<FragmentTitleBinding>(layoutInflater, R.layout.fragment_title, container, false)
 
         /*binding.button.setOnClickListener{
             //Navigation.findNavController(it).navigate(R.id.action_titleFragment_to_gameFragment) 아래와 같은 역할인데 코틀린 확장함수로 아래와 같이 줄일 수 있다.
