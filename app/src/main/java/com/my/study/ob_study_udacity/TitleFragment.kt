@@ -28,7 +28,7 @@ class TitleFragment : Fragment() {
             it.findNavController().navigate(R.id.action_titleFragment_to_gameFragment)
         }*/
 
-        binding.button.setOnClickListener( //위의 주석처리된 코드와 같은 역할이다. navigation이 onClickListener를 만들 수 있기 때문에 이렇게 될 수 있다.
+        binding.playButton.setOnClickListener( //위의 주석처리된 코드와 같은 역할이다. navigation이 onClickListener를 만들 수 있기 때문에 이렇게 될 수 있다.
             Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_gameFragment)
         )
         return binding.root
