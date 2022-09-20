@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">OB-Study-udacity</string>
     <string name="title_android_trivia_question">Android Trivia (%1$d/%2$d)</string>
+    <string name="share_success_text">I mastered #UdacityAndroidTrivia with %1$d/%2$d correct questions!</string>
 </resources>
