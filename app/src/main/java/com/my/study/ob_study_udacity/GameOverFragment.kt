@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation
 import com.my.study.ob_study_udacity.databinding.FragmentGameOverBinding
 
 class GameOverFragment : Fragment() {
@@ -14,6 +15,7 @@ class GameOverFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val binding = FragmentGameOverBinding.inflate(layoutInflater, container, false)
+        binding.tryAgainButton.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_gameOverFragment_to_gameFragment))
         return binding.root
     }
 }
