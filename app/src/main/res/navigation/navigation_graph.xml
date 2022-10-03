@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_graph"
     app:startDestination="@id/titleFragment">
 
     <fragment
         android:id="@+id/titleFragment"
         android:name="com.my.study.ob_study_udacity.TitleFragment"
+        tools:layout="@layout/fragment_title"
         android:label="TitleFragment">
         <action
             android:id="@+id/action_titleFragment_to_gameFragment"
@@ -18,6 +20,7 @@
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
+        tools:layout="@layout/fragment_game"
         android:name="com.my.study.ob_study_udacity.GameFragment"
         android:label="GameFragment">
         <action
@@ -41,6 +44,7 @@
     </fragment>
     <fragment
         android:id="@+id/gameOverFragment"
+        tools:layout="@layout/fragment_game_over"
         android:name="com.my.study.ob_study_udacity.GameOverFragment"
         android:label="GameOverFragment">
         <action
@@ -54,6 +58,7 @@
     </fragment>
     <fragment
         android:id="@+id/gameWonFragment"
+        tools:layout="@layout/fragment_game_won"
         android:name="com.my.study.ob_study_udacity.GameWonFragment"
         android:label="GameWonFragment">
         <action
